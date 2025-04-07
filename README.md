@@ -66,13 +66,13 @@ Utilizarei os dados de viagem do Divvy, um valioso conjunto de dados históricos
 ### 3. Processo
 A base para esta análise são os dados **2022** e os passos para o processamento dos dados são os seguintes:
 
-![Combinação de dados](https://github.com/Juliana-89/Project-Cyclistic-Google-Case-Study/blob/main/Combining%20Months%20Data%20Cyclistic%20.sql)
+![Combinação de dados](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Combining%20Months%20Data%20Cyclistic%20.sql)
 
-![Exploração de dados](https://github.com/Juliana-89/Project-Cyclistic-Google-Case-Study/blob/main/Data%20Exploration.sql)
+![Exploração de dados](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Data%20Exploration.sql)
 
-![Limpeza de dados](https://github.com/Juliana-89/Project-Cyclistic-Google-Case-Study/blob/main/Data%20Cleaning.sql)
+![Limpeza de dados](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Data%20Cleaning.sql)
 
-![Análise de dados](https://github.com/Juliana-89/Project-Cyclistic-Google-Case-Study/blob/main/Analysis%20Cyclistic.sql)
+![Análise de dados](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Analysis%20Cyclistic.sql)
 
 #### Combinação de dados
 Após a importação das tabelas para o PostgreSQL, o passo seguinte consiste na fusão das doze tabelas mensais numa única tabela consolidada para o ano de 2022. Esta consolidação permite uma análise mais eficiente e integrada dos dados para esse período.
