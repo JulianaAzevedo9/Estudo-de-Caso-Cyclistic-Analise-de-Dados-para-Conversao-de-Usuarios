@@ -1,6 +1,5 @@
-# Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios
-
 # Projeto-Ciclístico-Google-Case-Study
+
 ## Introdução 
 O **Cyclistic Bike Share Case Study** é um projeto de conclusão do **Certificado profissional de análise de dados do Google** no Coursera. Neste estudo de caso, realizarei várias tarefas do mundo real de um analista de dados júnior em uma empresa fictícia chamada Cyclistic. Perguntar, preparar, processar, analisar, compartilhar e agir são os estágios do processo de análise de dados que usarei para resolver os principais problemas de negócios.
 
@@ -127,7 +126,7 @@ A comparação inicial centra-se nas "Preferências de tipo de bicicleta entre m
 
 A figura abaixo mostra o **número total de passeios e a utilização do tipo de bicicleta em 2022** efectuados pelos membros da Cyclistic e pelos ciclistas ocasionais em **2022**. 
 
-![Tipos de afiliação]()
+![Tipos de afiliação](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Tipos%20de%20Membro%20pie%20chart.png)
 
 * Os membros representam 59,74% do total de utilizadores, enquanto os utilizadores ocasionais representam 40,3%.
 * A análise da utilização do tipo de bicicleta mostra:
@@ -138,9 +137,12 @@ A figura abaixo mostra o **número total de passeios e a utilização do tipo de
 ### Total de viagens de bicicleta por mês, semana e dia
 
 De seguida, examinamos a distribuição das viagens por mês, dia da semana e hora do dia.
-![Total de viagens de bicicleta por dia] ()
-![Total de viagens de bicicleta por semana]()
-![Total de viagens de bicicleta por mês] ()
+
+![Total de viagens de bicicleta por mês](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Total%20de%20viagens%20meses%20coluna%20chart.png)
+
+![Total de viagens de bicicleta por semana](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Total%20de%20viagens%20na%20semana%20coluna%20chart.png)
+
+![Total de viagens de bicicleta por hora](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Total%20de%20viagens%20por%20hora%20coluna%20chart.png)
 
 Análise da hora do dia
 * Membros: O pico de utilização ocorre durante a manhã (6-8h) e à noite (4-8h), sugerindo um comportamento pendular.
@@ -163,7 +165,7 @@ Principais informações
 
 Foi efectuada uma análise da duração das viagens para comparar os padrões de utilização entre os utilizadores ocasionais e os membros anuais.
 
-![Viagens médias] ()
+![Viagens médias](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Media%20da%20duracao%20das%20viagens%20em%202022.png)
 
 Duração média da viagem
 * Os utilizadores ocasionais têm uma duração de viagem significativamente mais longa (≈2x) do que os membros.
