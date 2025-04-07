@@ -118,7 +118,7 @@ Análise de dados
 A questão da análise é: 
 > Como é que os membros anuais e os utilizadores ocasionais utilizam as bicicletas Cyclistic de forma diferente?
 
-Os dados limpos são importados para o Tableau para serem analisados e os valores apresentados são os seguintes.
+Os dados limpos são importados para o Microsoft Power BI para serem analisados e os valores apresentados são os seguintes.
 
 ### Total de viagens e utilização de tipos de bicicletas em 2022
 
@@ -187,8 +187,8 @@ Os dados sublinham uma clara divisão - os utilizadores casuais preferem viagens
 
 Para compreender melhor as diferenças entre os utilizadores ocasionais e os membros, analisamos a localização das estações de início e fim das viagens. Seleccionamos as estações com o maior volume de viagens, aplicando filtros para obter as seguintes informações
 
-![Bike Trip End LOcations]()
-![Locais de fim de viagem de bicicleta]()
+![Bike Trip End LOcations](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Locais%20de%20Partida.png)
+![Locais de fim de viagem de bicicleta](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Locais%20d%20partida.png)
 
 Casual:
 * Iniciar viagens principalmente perto de destinos turísticos e de lazer, incluindo: Museus, Parques, Praias, Marinas (pontos de atracagem) e Aquários
@@ -200,8 +200,8 @@ Principais informações:
 * Os utilizadores casuais preferem locais recreativos e paisagísticos, o que sugere uma utilização baseada no lazer.
 * Os membros mostram padrões orientados para o trabalho pendular, com viagens que começam perto de serviços essenciais, locais de trabalho e centros de trânsito.
 
-![Locais de início da viagem de bicicleta]()
-![Locais de início da viagem de bicicleta]()
+![Locais de início da viagem de bicicleta](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/chegada.png)
+![Locais de início da viagem de bicicleta](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/LOcais%20de%20chagada.png)
 
 Casual:
 * Viagens finais predominantemente perto de áreas de lazer e recreação, incluindo: Parques, Museus e Atracções Turísticas
@@ -216,7 +216,7 @@ Os dados reforçam uma clara divisão comportamental:
 
 ### 5. Partilhar
 
-![DashBoard]()
+![DashBoard](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Dashboard%20Cyclistic%20portugues.png)
 
 
 * Viajam duas vezes mais, mas com menos frequência do que os membros.
