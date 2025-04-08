@@ -1,4 +1,4 @@
-# Projeto-Ciclístico-Google-Case-Study
+# Projeto-Cyclistic-Estudo-De-Caso-Google
 
 ## Introdução 
 O **Cyclistic Bike Share Case Study** é um projeto de conclusão do **Certificado profissional de análise de dados do Google** no Coursera. Neste estudo de caso, realizarei várias tarefas do mundo real de um analista de dados júnior em uma empresa fictícia chamada Cyclistic. Perguntar, preparar, processar, analisar, compartilhar e agir são os estágios do processo de análise de dados que usarei para resolver os principais problemas de negócios.
@@ -228,7 +228,7 @@ Membros
 * Começam e terminam as suas viagens perto de universidades, zonas residenciais e comerciais.
 * Preferem andar de bicicleta durante a semana nas horas de ponta (8h/5h) na primavera e no verão.
 
-### 6. Atuar
+### 6. Agir
 
 Após identificar as diferenças entre ciclistas casuais e ciclistas membros, podem ser desenvolvidas estratégias de marketing para converter ciclistas casuais em membros. São sugeridas as seguintes recomendações:
 1. Lançar campanhas de marketing durante a primavera e o verão em zonas turísticas e recreativas que sejam populares entre os ciclistas ocasionais.
