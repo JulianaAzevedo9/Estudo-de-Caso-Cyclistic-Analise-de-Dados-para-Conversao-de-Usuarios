@@ -1,12 +1,13 @@
 # Projeto-Cyclistic-Estudo-De-Caso-Google
 
 ## Introdução 
+
 O **Cyclistic Bike Share Case Study** é um projeto de conclusão do **Certificado profissional de análise de dados do Google** no Coursera. Neste estudo de caso, realizarei várias tarefas do mundo real de um analista de dados júnior em uma empresa fictícia chamada Cyclistic. Perguntar, preparar, processar, analisar, compartilhar e agir são os estágios do processo de análise de dados que usarei para resolver os principais problemas de negócios.
 
 ## Contexto
-Cyclistic é um serviço de partilha de bicicletas que oferece 600 estações de ancoragem e mais de 5.800 bicicletas, incluindo opções únicas como bicicletas de carga, triciclos de mão e bicicletas reclinadas, tornando o serviço acessível a pessoas com deficiência. Embora 8% dos utilizadores utilizem bicicletas assistidas, a maioria opta por bicicletas normais. Mais de 30% dos utilizadores utilizam bicicletas para deslocações pendulares, embora muitos também o façam para lazer.
+Cyclistic é um serviço de partilha de bicicletas que oferece 600 estações de ancoragem e mais de 5.800 bicicletas, incluindo opções únicas como bicicletas de carga, triciclos de mão e bicicletas reclinadas, tornando o serviço acessível a pessoas com deficiência. Embora 8% dos utilizadores utilizem bicicletas assistidas, a maioria opta por bicicletas normais. Mais de 30% dos utilizadores utilizam bicicletas para deslocamentos diários, embora muitos também o façam para lazer.
 
-A estratégia de marketing da Cyclistic centrou-se na notoriedade da marca e na demografia alargada dos consumidores, apoiada por planos de preços flexíveis: passes únicos, passes de um dia inteiro e associações anuais. Os clientes com passes únicos ou de um dia são utilizadores ocasionais, enquanto os assinantes anuais são membros.
+A estratégia de marketing da Cyclistic tem se concentrado no aumento da conscientização da marca e no alcance de um público amplo e diversificado, apoiada por planos de preços flexíveis: passes para viagens avulsas, passes diários e assinaturas anuais. Os clientes com passes únicos ou de um dia são utilizadores ocasionais, enquanto os assinantes anuais são membros.
 
 Os analistas financeiros observam que os membros são muito mais rentáveis do que os ciclistas ocasionais. Moreno, o diretor de marketing, acredita que a conversão de ciclistas casuais em membros é fundamental para o crescimento futuro, uma vez que estes já reconhecem os benefícios do ciclismo. A equipa de marketing pretende:
 
@@ -17,7 +18,7 @@ Os analistas financeiros observam que os membros são muito mais rentáveis do q
 Para tal, a equipa irá analisar dados históricos de viagens de bicicleta para descobrir tendências e orientar campanhas de marketing direcionadas.
 
 ### Cenário
-Na Cyclistic, uma empresa de partilha de bicicletas sediada em Chicago, estou a assumir o papel de analista de dados júnior na equipa de análise de marketing. O sucesso futuro da empresa depende do aumento das adesões anuais, conforme enfatizado pelo diretor de marketing. A minha equipa pretende analisar a forma como os membros anuais e os ciclistas casuais utilizam as bicicletas Cyclistic de forma diferente para desenvolver uma estratégia de marketing direcionada que converta os ciclistas casuais em membros anuais.
+Na Cyclistic, empresa líder em partilha de bicicletas em Chicago, desempenho atualmente a função de Analista de Dados Júnior na equipa de Análise de Marketing. O sucesso futuro da empresa depende do aumento das adesões anuais, conforme enfatizado pelo diretor de marketing. A minha equipa pretende analisar a forma como os membros anuais e os ciclistas casuais utilizam as bicicletas Cyclistic de forma diferente para desenvolver uma estratégia de marketing direcionada que converta os ciclistas casuais em membros anuais.
 
 No entanto, as nossas recomendações têm primeiro de obter a aprovação dos executivos da Cyclistic, o que significa que têm de ser apoiadas por informações baseadas em dados e visualizações especializadas.
 
@@ -39,10 +40,12 @@ O objetivo é fornecer recomendações acionáveis que ajudem a Cyclistic a aume
 
 ## Abordagem/etapas
 ### 1. Perguntar
-Missão
+
+**Missão**
 
 Criar estratégias de marketing que incentivem os ciclistas casuais a tornarem-se membros anuais.
-Questões de análise
+
+**Questões de análise**
 
 A próxima campanha de marketing será guiada por três questões-chave:
 
@@ -54,7 +57,7 @@ Moreno atribuiu-me a primeira pergunta para responder:
 “Como é que os membros anuais e os utilizadores casuaus usam as bicicletas da Cyclistic de forma diferente?”
 
 ### 2. Preparar
-Utilizarei os dados de viagem do Divvy, um valioso conjunto de dados históricos fornecidos pela Motivate International Inc. sob licença, para analisar as tendências na utilização de bicicletas ciclísticas de janeiro a dezembro de 2022.
+Utilizarei os dados de viagem do Divvy, um valioso conjunto de dados históricos fornecidos pela Motivate International Inc. sob licença, para analisar as tendências na utilização de bicicletas da cyclistic de janeiro a dezembro de 2022.
 
 **Fonte de dados:** [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) <br>
 [Note-se que os dados foram disponibilizados pela Motivate International Inc. ao abrigo desta [<ins>licença</ins>](https://www.divvybikes.com/data-license-agreement)].
@@ -77,7 +80,7 @@ A base para esta análise são os dados **2022** e os passos para o processament
 #### Combinação de dados
 Após a importação das tabelas para o PostgreSQL, o passo seguinte consiste na fusão das doze tabelas mensais numa única tabela consolidada para o ano de 2022. Esta consolidação permite uma análise mais eficiente e integrada dos dados para esse período.
 
-Como todas as tabelas tinham a mesma estrutura de colunas e tipos de dados, utilizámos a operação UNION ALL para as combinar. A tabela resultante, denominada cyclistic_2022, contém um total de 5.733.451 linhas.
+Como todas as tabelas tinham a mesma estrutura de colunas e tipos de dados, utilizámos a operação UNION ALL para as combinar. A tabela resultante, denominada cyclistic_2022_1, contém um total de 5.733.451 linhas.
 
 #### Exploração de dados
 Antes de limpar os dados, um dos primeiros passos que dei foi familiarizar-me com a estrutura da tabela e os seus dados para identificar potenciais inconsistências.
@@ -106,30 +109,31 @@ Remoção de valores em falta - Todas as linhas com entradas vazias ou nulas for
 Novas colunas adicionadas - Foram criadas três novas colunas:
 
 * ride_length (duração da viagem)
-* dia_da_semana
-* mês
+* day_of_the_week (dias da semana)
+* month (mês)
 
 Viagens inválidas filtradas - Excluídas as viagens com duração inferior a 1 minuto ou superior a 1 dia.
 Total de linhas removidas: 1,400,282
 
 ### 4. Analisar
 
-Análise de dados
+**Análise de dados**
+
 A questão da análise é: 
 > Como é que os membros anuais e os utilizadores ocasionais utilizam as bicicletas Cyclistic de forma diferente?
 
 Os dados limpos são importados para o Microsoft Power BI para serem analisados e os valores apresentados são os seguintes.
 
-### Total de viagens e utilização de tipos de bicicletas em 2022
+### Análise Comparativa: Volume Total de Viagens e Preferência por Tipos de Bicicleta (2022)
 
-A comparação inicial centra-se nas "Preferências de tipo de bicicleta entre membros e utilizadores ocasionais".
+A comparação inicial centra-se nas "Preferências de tipo de bicicleta entre membros e utilizadores casuais".
 
-A figura abaixo mostra o **número total de passeios e a utilização do tipo de bicicleta em 2022** efectuados pelos membros da Cyclistic e pelos ciclistas ocasionais em **2022**. 
+A figura abaixo mostra o **número total de passeios e a preferência por tipos de bicicletas em 2022** efectuados pelos membros da Cyclistic e pelos ciclistas casuais em **2022**. 
 
 ![Tipos de afiliação](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Tipos%20de%20Membro%20pie%20chart.png)
 
-* Os membros representam 59,74% do total de utilizadores, enquanto os utilizadores ocasionais representam 40,3%.
-* A análise da utilização do tipo de bicicleta mostra:
+* Os membros representam 59,74% do total de utilizadores, enquanto os utilizadores casuais representam 40,3%.
+* A análise da preferência dos tipos de bicicletas mostra:
     * As bicicletas "clássicas" são as mais populares.
     * As bicicletas "eléctricas" vêm em segundo lugar.
     * As bicicletas "docadas" são as menos utilizadas e exclusivas para os utilizadores ocasionais.
@@ -144,24 +148,24 @@ De seguida, examinamos a distribuição das viagens por mês, dia da semana e ho
 
 ![Total de viagens de bicicleta por hora](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Total%20de%20viagens%20por%20hora%20coluna%20chart.png)
 
-Análise da hora do dia
+Distribuição Temporal das Viagens: Padrões de Uso por Hora do Dia
 * Membros: O pico de utilização ocorre durante a manhã (6-8h) e à noite (4-8h), sugerindo um comportamento pendular.
-* Casual Riders: A utilização aumenta gradualmente ao longo do dia, atingindo o seu pico no final da tarde antes de diminuir.
+* Casuais: A utilização aumenta gradualmente ao longo do dia, atingindo o seu pico no final da tarde antes de diminuir.
 
-Análise do dia da semana
-* Os utilizadores ocasionais fazem mais viagens aos fins-de-semana, provavelmente por lazer.
+Distribuição Temporal das Viagens: Padrões de Uso por Dia da Semana
+* Os utilizadores casuais fazem mais viagens aos fins-de-semana, provavelmente por lazer.
 * Os membros revelam uma maior utilização durante a semana, com uma diminuição aos fins-de-semana - o que apoia ainda mais as deslocações relacionadas com o trabalho.
 
-Tendências mensais
+Distribuição Temporal das Viagens: Padrões de Uso por mês
 * Ambos os grupos apresentam uma maior utilização na primavera/verão e uma menor utilização no inverno.
 * A menor diferença entre a utilização ocasional e a dos membros ocorre em julho (pico do verão).
 
 Principais informações
 * Os membros utilizam principalmente bicicletas para deslocações profissionais (dias de semana, horas de ponta).
-* Os utilizadores ocasionais privilegiam as viagens de lazer (fins-de-semana, durante o dia).
+* Ciclistas ocasionais preferem viagens de lazer (fins de semana, período diurno).
 * Influência sazonal: Ambos os grupos andam mais nos meses quentes, mas os ciclistas casuais apresentam padrões mais fortes aos fins-de-semana.
 
-### Duração média das deslocações de bicicleta por mês, semana e dia
+### Métricas de Duração Média: Variações Mensais, Semanais e Diárias das Deslocações
 
 Foi efectuada uma análise da duração das viagens para comparar os padrões de utilização entre os utilizadores ocasionais e os membros anuais.
 
