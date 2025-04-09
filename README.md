@@ -167,42 +167,42 @@ Principais informações
 
 ### Métricas de Duração Média: Variações Mensais, Semanais e Diárias das Deslocações
 
-Foi efectuada uma análise da duração das viagens para comparar os padrões de utilização entre os utilizadores ocasionais e os membros anuais.
+Realizamos uma análise comparativa da duração das viagens para identificar padrões de uso distintos entre ciclistas casuais e membros anuai.
 
 ![Viagens médias](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Media%20da%20duracao%20das%20viagens%20em%202022.png)
 
-Duração média da viagem
-* Os utilizadores ocasionais têm uma duração de viagem significativamente mais longa (≈2x) do que os membros.
+Duração média das viagens
+* Os ciclistas casuais têm uma duração de viagem significativamente mais longa (≈2x) comparada aos membros.
 * Os membros mantêm uma duração de viagem consistente durante todo o ano, sem flutuações notáveis por estação, dia ou hora.
 
-Tendências do Casual Rider
+Tendências dos Ciclistas Casuais 
 * Sazonal: Passeios mais longos na primavera/verão, mais curtos no inverno.
 * Semanal: Picos de duração nos fins-de-semana (utilização de lazer).
-* Diariamente: Viagens mais longas entre as 10h00 e as 14h00; mais curtas entre as 5h00 e as 8h00 (horas de menos movimento).
+* Diariamente: Viagens mais longas entre as 10h00 e as 14h00; mais curtas entre as 5h00 e as 8h00 (horarios de menos movimento).
 
 Visão comportamental
-* Os utilizadores ocasionais dão prioridade a viagens mais longas e menos frequentes, em linha com a utilização recreativa.
+* Os ciclistas casuais dão prioridade a viagens mais longas e menos frequentes, em linha com a utilização recreativa.
 * As deslocações mais curtas e constantes dos membros reforçam as deslocações utilitárias (por exemplo, rotinas de trabalho).
 
-Principais informações
-Os dados sublinham uma clara divisão - os utilizadores casuais preferem viagens longas e orientadas para o lazer, enquanto os membros optam por viagens eficientes e habituais. Os padrões sazonais e de hora do dia realçam ainda mais esta distinção.
+Principais Conclusões
+Os dados revelam uma divisão clara: os ciclistas casuais preferem viagens recreativas e prolongadas, enquanto os membros optam por deslocações eficientes e habituais. Padrões sazonais e horários reforçam ainda mais esta distinção.
 
-### Locais de início e fim da viagem de bicicleta
+### Análise Espacial: Distribuição dos Locais de Partida e Chegada na Rede Ciclável
 
-Para compreender melhor as diferenças entre os utilizadores ocasionais e os membros, analisamos a localização das estações de início e fim das viagens. Seleccionamos as estações com o maior volume de viagens, aplicando filtros para obter as seguintes informações
+Para compreender melhor as diferenças entre os ciclistas casuais e os membros, analisamos a localização das estações de início e fim das viagens. Selecionamos as estações com o maior volume de viagens, aplicando filtros para obter as seguintes informações
 
 ![Bike Trip End LOcations](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Locais%20de%20Partida.png)
 ![Locais de fim de viagem de bicicleta](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Locais%20d%20partida.png)
 
 Casual:
-* Iniciar viagens principalmente perto de destinos turísticos e de lazer, incluindo: Museus, Parques, Praias, Marinas (pontos de atracagem) e Aquários
+* Inicia viagens principalmente perto de destinos turísticos e de lazer, incluindo: Museus, Parques, Praias, Marinas (pontos de atracagem) e Aquários
 
 Membro:
-* Iniciar as viagens com maior frequência perto de locais práticos e de utilização diária, tais como: Universidades, zonas residenciais, restaurantes, hospitais, supermercados, teatros, escolas, bancos, fábricas, estações de comboio, parques e praças
+* Inicia as viagens com maior frequência perto de locais práticos e de utilização diária, tais como: Universidades, zonas residenciais, restaurantes, hospitais, supermercados, teatros, escolas, bancos, fábricas, estações de comboio, parques e praças
 
 Principais informações:
-* Os utilizadores casuais preferem locais recreativos e paisagísticos, o que sugere uma utilização baseada no lazer.
-* Os membros mostram padrões orientados para o trabalho pendular, com viagens que começam perto de serviços essenciais, locais de trabalho e centros de trânsito.
+* Ciclistas Casuais preferem percursos recreativos e turísticos, indicando um uso voltado para lazer.
+* Membros demonstram padrões de deslocamento diário, com viagens iniciando próximas a serviços essenciais, locais de trabalho e terminais de transporte.
 
 ![Locais de início da viagem de bicicleta](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/chegada.png)
 ![Locais de início da viagem de bicicleta](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/LOcais%20de%20chagada.png)
@@ -215,20 +215,20 @@ Membro:
 
 Principais informações:
 Os dados reforçam uma clara divisão comportamental:
-* Os utilizadores ocasionais utilizam as bicicletas principalmente para lazer e turismo, com viagens concentradas em torno de locais de recreio.
-* Os membros confiam nas bicicletas para deslocações de rotina e recados práticos, com viagens ligadas ao trabalho, educação e serviços essenciais.
+* ciclistas casuais utilizam as bicicletas principalmente para lazer e turismo, com viagens concentradas em torno de locais de recreio.
+* Os membros utilizam as bicicletas principalmente para deslocamentos rotineiros e tarefas práticas, com viagens associadas a trabalho, estudo e serviços essenciais.
 
 ### 5. Partilhar
 
 ![DashBoard](https://github.com/JulianaAzevedo9/Estudo-de-Caso-Cyclistic-Analise-de-Dados-para-Conversao-de-Usuarios/blob/main/Dashboard%20Cyclistic%20portugues.png)
 
-
+Ciclistas Casuais
 * Viajam duas vezes mais, mas com menos frequência do que os membros.
 * Começam e terminam as suas viagens perto de parques, museus, zonas costeiras e outros espaços de lazer.
 * Preferem utilizar a bicicleta durante o dia, sobretudo aos fins-de-semana, no verão e na primavera, para actividades de lazer.
 
 Membros
-* Viajam com mais frequência, mas em trajectos mais curtos (cerca de metade da duração dos trajectos dos ciclistas ocasionais).
+* Viajam com mais frequência, mas em trajectos mais curtos (cerca da metade da duração dos trajectos dos ciclistas ocasionais).
 * Começam e terminam as suas viagens perto de universidades, zonas residenciais e comerciais.
 * Preferem andar de bicicleta durante a semana nas horas de ponta (8h/5h) na primavera e no verão.
 
